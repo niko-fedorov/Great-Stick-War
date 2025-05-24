@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: Items Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: Items
+  m_TableCollectionNameGuidString: 17ec532495c8ea643a2d416a473123ef
+  m_Entries:
+  - m_Id: 19378888380416
+    m_Key: nagant-m1895
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36105537851392
+    m_Key: russian-empire
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20210849550336
+    m_Key: france
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35473712091136
+    m_Key: german-empire
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35932489256960
+    m_Key: ottoman-empire
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1013577976778752
+    m_Key: shovel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1548608767922176
+    m_Key: austria-hungary
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2325756491468800
+    m_Key: fedorov-avtomat
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 9056872286901240165
+  references:
+    version: 2
+    RefIds:
+    - rid: 9056872286901240165
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1744898867964

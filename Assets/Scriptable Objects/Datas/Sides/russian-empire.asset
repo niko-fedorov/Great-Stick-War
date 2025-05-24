@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07ba958d03188d94f9db566becb747aa, type: 3}
+  m_Name: russian-empire
+  m_EditorClassIdentifier: 
+  _type: 5
+  _name:
+    m_TableReference:
+      m_TableCollectionName: GUID:17ec532495c8ea643a2d416a473123ef
+    m_TableEntryReference:
+      m_KeyId: 36105537851392
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  _icon: {fileID: 0}
+  _color: {r: 0, g: 0, b: 0, a: 0}
+  _classDatas: []
+  references:
+    version: 2
+    RefIds: []

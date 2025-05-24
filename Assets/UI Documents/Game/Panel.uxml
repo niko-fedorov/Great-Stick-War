@@ -1,0 +1,9 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <engine:Template name="PlayerControllerPanel" src="project://database/Assets/UI%20Documents/Game/PlayerControllerPanel.uxml?fileID=9197481963319205126&amp;guid=57df22d0193346349ba521ab779cfdb1&amp;type=3#PlayerControllerPanel" />
+    <engine:Template name="TeamSelectionPanel" src="project://database/Assets/UI%20Documents/Game/TeamSelectionPanel.uxml?fileID=9197481963319205126&amp;guid=8fd8c207f2e4b2d4eb528bd2ee438750&amp;type=3#TeamSelectionPanel" />
+    <Style src="project://database/Assets/UI%20Documents/Pixel.uss?fileID=7433441132597879392&amp;guid=465a563440f92944f93cc60b9f938edd&amp;type=3#Pixel" />
+    <engine:VisualElement name="controllers" class="Panel">
+        <engine:Instance template="PlayerControllerPanel" class="Panel" />
+    </engine:VisualElement>
+    <engine:Instance template="TeamSelectionPanel" class="Panel" />
+</engine:UXML>

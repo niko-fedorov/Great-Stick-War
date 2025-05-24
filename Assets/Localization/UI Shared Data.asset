@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: UI Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: UI
+  m_TableCollectionNameGuidString: f5e1755c62a5e1a4c9b3f4657302e992
+  m_Entries:
+  - m_Id: 18622844928
+    m_Key: multiplayer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1200036646912
+    m_Key: singleplayer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 58002505863168
+    m_Key: create
+    m_Metadata:
+      m_Items: []
+  - m_Id: 58206994960384
+    m_Key: select
+    m_Metadata:
+      m_Items: []
+  - m_Id: 283759920418816
+    m_Key: select-side
+    m_Metadata:
+      m_Items: []
+  - m_Id: 763676567146496
+    m_Key: back
+    m_Metadata:
+      m_Items: []
+  - m_Id: 784054970617856
+    m_Key: Are you sure you want to exit?
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 9056872286901240203
+  references:
+    version: 2
+    RefIds:
+    - rid: 9056872286901240203
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1744914047431

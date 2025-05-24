@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 968c77c2fd3b21c4eb2e565c394045fc, type: 3}
+  m_Name: 57mm
+  m_EditorClassIdentifier: 
+  _name: 5.7 cm Maxim-Nordenfelt
+  _slotType: 0
+  _fireMode: 1
+  _damage: 100
+  _fireRate: 0
+  _distance: 0
+  _scopeSpeed: 0
+  _reloadTime: 0
+  _scopeValue: 0
+  _velocity: 0
+  _bulletDrop: 0
+  _recoil:
+    _value: {x: 0, y: 0}
+    _firstShotMultiplier: 0
+    _decreasePerSecond: 0
+  _spread:
+    _staticSpread: 0
+    _hipfireStaticSpread: 0
+    _hipfireMovingSpread: 0
+    _zoomedStaticSpread: 0
+    _increasePerBullet: 0
+    _decreasePerSecond: 0
+  _clipAmmo: 1
+  _ammo: 10
+  _shotSound: {fileID: 0}
+  _reloadSound: {fileID: 0}
+  _bulletPrefab: {fileID: 0}
+  _bulletHitPrefab: {fileID: 0}

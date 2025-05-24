@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d5999770c2bb584fb568b13b201a7e9, type: 3}
+  m_Name: rifler
+  m_EditorClassIdentifier: 
+  _type: 0
+  _name: 
+  _icon: {fileID: 0}
+  _itemPrefabs:
+  - {fileID: -2561238083777029360, guid: b3f715b285b6b5a48bd0ed1368270af3, type: 3}
+  - {fileID: 1225616797873272848, guid: 3c9a039fee93180428f926cdf008a662, type: 3}

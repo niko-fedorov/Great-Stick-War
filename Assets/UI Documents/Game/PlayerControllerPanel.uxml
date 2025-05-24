@@ -1,0 +1,13 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/Pixel.uss?fileID=7433441132597879392&amp;guid=465a563440f92944f93cc60b9f938edd&amp;type=3#Pixel" />
+    <Game.UI.PlayerControllerPanel class="Panel">
+        <engine:VisualElement name="sight" class="Panel" style="width: 4px; height: 16px; top: 50%; left: 50%; right: 50%; bottom: 50%; background-color: rgb(255, 255, 255); translate: -50% -50%;" />
+        <engine:Label name="action" style="position: absolute; left: 0; top: 50%; right: 0; bottom: 0;" />
+        <engine:VisualElement name="item" style="flex-grow: 1; position: absolute; bottom: 0; right: 0;">
+            <engine:Label name="name" text="Name" style="-unity-text-align: middle-right;" />
+            <engine:Label name="ammo" text="Ammo" style="font-size: 16px; -unity-text-align: middle-right;" />
+        </engine:VisualElement>
+        <engine:ProgressBar style="margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; width: 25%; position: absolute; bottom: 0; left: 0;" />
+        <engine:TextField placeholder-text="filler text" enabled="false" style="top: 75%; width: 25%;" />
+    </Game.UI.PlayerControllerPanel>
+</engine:UXML>

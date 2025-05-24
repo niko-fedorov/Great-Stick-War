@@ -1,0 +1,56 @@
+VisualElement {
+    flex-grow: 1;
+}
+
+.unity-text-element {
+    -unity-font-definition: url("project://database/Assets/Fonts/3572.ttf?fileID=12800000&guid=3822fc220f5d48d499b9e0407903ebeb&type=3#3572");
+    font-size: 32px;
+    -unity-text-align: middle-center;
+    color: rgb(255, 255, 255);
+}
+
+.unity-image {
+}
+
+.unity-button {
+    background-color: rgb(255, 255, 255);
+    border-top-width: 0;
+    border-right-width: 0;
+    border-bottom-width: 0;
+    border-left-width: 0;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+}
+
+.unity-button:hover {
+    background-color: rgb(191, 191, 191);
+}
+
+.unity-button:active {
+    background-color: rgb(128, 128, 128);
+}
+
+:disabled {
+    display: none;
+}
+
+.Panel {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.container {
+    flex-grow: 1;
+}
+
+.unity-progress-bar__container {
+}

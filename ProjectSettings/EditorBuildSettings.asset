@@ -9,9 +9,17 @@ EditorBuildSettings:
     path: Assets/Scenes/menu.unity
     guid: 10af8692b199afb49bddcb2c1933f2a0
   - enabled: 1
-    path: Assets/Scenes/map_test.unity
-    guid: 9fc0d4010bbf28b4594072e72b8655ab
+    path: Assets/Scenes/game.unity
+    guid: f0b461acb7a2a8e40a289b53e3b4d037
   - enabled: 1
-    path: Assets/Scenes/test_mp.unity
-    guid: e1dbf8f79ad8b1d44b91642a49d3a6b3
-  m_configObjects: {}
+    path: Assets/Scenes/editor.unity
+    guid: aea3bfa85f54d834a8f214e047f5b8dc
+  - enabled: 1
+    path: Assets/Scenes/test.unity
+    guid: f93d31fb3c6905e449d528860ea96932
+  m_configObjects:
+    com.unity.addressableassets: {fileID: 11400000, guid: 193c5184edfb9ce41941a7ba6b727e3c, type: 2}
+    com.unity.input.settings: {fileID: 11400000, guid: 55c2741db7211b4428040ede1a7129e1, type: 2}
+    com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 80d032e58210b9b4ea714b93ceffa082, type: 3}
+    com.unity.localization.settings: {fileID: 11400000, guid: 23bb8a97437d1bd4fb6acf72e798f46d, type: 2}
+  m_UseUCBPForAssetBundles: 0

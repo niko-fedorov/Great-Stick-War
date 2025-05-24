@@ -1,10 +1,10 @@
+using Unity.Netcode;
 using UnityEngine;
-using UnityEngine.EventSystems;
 
-public class Test : MonoBehaviour, IPointerClickHandler
+public class Test : MonoBehaviour
 {
-    public void OnPointerClick(PointerEventData eventData)
+    private void Start()
     {
-        print("+");
+        NetworkManager.Singleton.StartHost();
     }
 }

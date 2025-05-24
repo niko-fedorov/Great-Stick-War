@@ -1,0 +1,43 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Documents/Pixel.uss?fileID=7433441132597879392&amp;guid=465a563440f92944f93cc60b9f938edd&amp;type=3#Pixel" />
+    <engine:VisualElement name="background" style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; background-image: url(&quot;project://database/Assets/Sprites/menu_background.jpg?fileID=2800000&amp;guid=917da3dfee54545479d9abebedfb644c&amp;type=3#menu_background&quot;);" />
+    <engine:VisualElement name="vignette" style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; background-image: url(&quot;project://database/Assets/Textures/vignette.png?fileID=2800000&amp;guid=94e3180dec1d5a94398b31b23f547396&amp;type=3#vignette&quot;); -unity-background-image-tint-color: rgb(0, 0, 0);" />
+    <Menu.UI.Menu class="Panel" style="flex-grow: 1;">
+        <engine:Label text="THE STICK WAR" name="logo" style="-unity-text-align: upper-center; font-size: 64px; -unity-font-definition: url(&quot;project://database/Assets/Fonts/pixel.ttf?fileID=12800000&amp;guid=e2fce6fb93dd98c4f9c252870647fc4f&amp;type=3#pixel&quot;); top: 25%; color: rgb(255, 255, 255);" />
+        <engine:VisualElement name="buttons" class="container" style="width: 25%;">
+            <UI.AudioButton name="singleplayer" text="SINGLEPLAYER" style="height: 6.25%; background-color: rgb(126, 154, 123);">
+                <Bindings>
+                    <UnityEngine.Localization.LocalizedString property="text" table="GUID:f5e1755c62a5e1a4c9b3f4657302e992" entry="Id(1200036646912)" />
+                </Bindings>
+            </UI.AudioButton>
+            <UI.AudioButton name="multiplayer" text="MULTIPLAYER" style="height: 6.25%; background-color: rgb(181, 187, 140);">
+                <Bindings>
+                    <UnityEngine.Localization.LocalizedString property="text" table="GUID:f5e1755c62a5e1a4c9b3f4657302e992" entry="Id(18622844928)" />
+                </Bindings>
+            </UI.AudioButton>
+            <UI.AudioButton name="editor" text="EDITOR" style="height: 6.25%; background-color: rgb(49, 42, 33);" />
+            <UI.AudioButton name="settings" text="SETTINGS" style="height: 6.25%; background-color: rgb(4, 4, 4);" />
+            <UI.AudioButton name="exit" text="EXIT" style="height: 6.25%; background-color: rgb(211, 149, 44);" />
+        </engine:VisualElement>
+        <Menu.UI.MultiplayerPanel enabled="false" class="Panel">
+            <engine:Label text="THE STICK WAR" name="label_logo" style="-unity-text-align: upper-center; font-size: 64px; -unity-font-definition: url(&quot;project://database/Assets/Fonts/pixel.ttf?fileID=12800000&amp;guid=e2fce6fb93dd98c4f9c252870647fc4f&amp;type=3#pixel&quot;); top: 25%; color: rgb(255, 255, 255);" />
+            <engine:VisualElement name="buttons" style="flex-grow: 1; align-self: center; justify-content: center; align-content: center; width: 25%;">
+                <UI.AudioButton name="create" style="height: 6.25%; background-color: rgb(181, 187, 140); border-top-width: 0; border-right-width: 0; border-bottom-width: 0; border-left-width: 0; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0;">
+                    <Bindings>
+                        <UnityEngine.Localization.LocalizedString property="text" table="GUID:f5e1755c62a5e1a4c9b3f4657302e992" entry="Id(58002505863168)" />
+                    </Bindings>
+                </UI.AudioButton>
+                <UI.AudioButton name="select" text="MULTIPLAYER" style="height: 6.25%; background-color: rgb(181, 187, 140); margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; border-top-width: 0; border-right-width: 0; border-bottom-width: 0; border-left-width: 0;">
+                    <Bindings>
+                        <UnityEngine.Localization.LocalizedString property="text" table="GUID:f5e1755c62a5e1a4c9b3f4657302e992" entry="Id(58206994960384)" />
+                    </Bindings>
+                </UI.AudioButton>
+                <UI.AudioButton name="close" text="MULTIPLAYER" style="height: 6.25%; background-color: rgb(181, 187, 140); margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; border-top-width: 0; border-right-width: 0; border-bottom-width: 0; border-left-width: 0;">
+                    <Bindings>
+                        <UnityEngine.Localization.LocalizedString property="text" table="GUID:f5e1755c62a5e1a4c9b3f4657302e992" entry="Id(763676567146496)" />
+                    </Bindings>
+                </UI.AudioButton>
+            </engine:VisualElement>
+        </Menu.UI.MultiplayerPanel>
+    </Menu.UI.Menu>
+</engine:UXML>

@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07ba958d03188d94f9db566becb747aa, type: 3}
+  m_Name: france
+  m_EditorClassIdentifier: 
+  _type: 2
+  _name:
+    m_TableReference:
+      m_TableCollectionName: GUID:17ec532495c8ea643a2d416a473123ef
+    m_TableEntryReference:
+      m_KeyId: 20210849550336
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  _icon: {fileID: 0}
+  _color: {r: 0.5229619, g: 0.7364924, b: 0.9811321, a: 1}
+  _classDatas:
+  - _type: 0
+    _gunSlots:
+    - _slotType: 0
+      _gunData: {fileID: 11400000, guid: 10785b705116c094fb6360c70492ea98, type: 2}
+  references:
+    version: 2
+    RefIds: []

@@ -1,0 +1,16 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Documents/Pixel.uss?fileID=7433441132597879392&amp;guid=465a563440f92944f93cc60b9f938edd&amp;type=3#Pixel" />
+    <UI.ActionPanel class="Panel" style="width: 50%; top: 0; left: 0; right: 0; bottom: 0; height: 28.125%; align-self: center; align-content: center;">
+        <engine:VisualElement name="header" style="background-color: rgb(0, 0, 0);">
+            <engine:Label text="Label" style="color: rgb(255, 255, 255);">
+                <Bindings>
+                    <UnityEngine.Localization.LocalizedString property="text" table="GUID:f5e1755c62a5e1a4c9b3f4657302e992" entry="Id(784054970617856)" />
+                </Bindings>
+            </engine:Label>
+        </engine:VisualElement>
+        <engine:VisualElement name="buttons" class="container" style="flex-direction: row;">
+            <UI.AudioButton name="positive" />
+            <UI.AudioButton name="negative" />
+        </engine:VisualElement>
+    </UI.ActionPanel>
+</engine:UXML>

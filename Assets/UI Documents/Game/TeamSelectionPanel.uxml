@@ -1,0 +1,15 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <engine:Template name="TeamSelectionButton" src="project://database/Assets/UI%20Documents/Game/TeamSelectionButton.uxml?fileID=9197481963319205126&amp;guid=135116bcc3937de44980b1500276a1a0&amp;type=3#TeamSelectionButton" />
+    <Style src="project://database/Assets/UI%20Documents/Pixel.uss?fileID=7433441132597879392&amp;guid=465a563440f92944f93cc60b9f938edd&amp;type=3#Pixel" />
+    <Game.UI.SideSelectionPanel name="SideSelectionPanel" class="Panel">
+        <engine:Label>
+            <Bindings>
+                <UnityEngine.Localization.LocalizedString property="text" table="GUID:f5e1755c62a5e1a4c9b3f4657302e992" entry="Id(283759920418816)" />
+            </Bindings>
+        </engine:Label>
+        <engine:VisualElement name="buttons" class="container" style="flex-direction: row; align-self: auto;">
+            <engine:Instance template="TeamSelectionButton" name="TeamSelectionButton" style="flex-grow: 1; align-content: flex-start; justify-content: space-evenly; align-self: auto;" />
+            <engine:Instance template="TeamSelectionButton" name="TeamSelectionButton" style="flex-grow: 1;" />
+        </engine:VisualElement>
+    </Game.UI.SideSelectionPanel>
+</engine:UXML>

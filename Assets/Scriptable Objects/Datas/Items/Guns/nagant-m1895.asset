@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 968c77c2fd3b21c4eb2e565c394045fc, type: 3}
+  m_Name: nagant-m1895
+  m_EditorClassIdentifier: 
+  _slotType: 1
+  _name:
+    m_TableReference:
+      m_TableCollectionName: GUID:17ec532495c8ea643a2d416a473123ef
+    m_TableEntryReference:
+      m_KeyId: 19378888380416
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  _isDropable: 0
+  _ownerSpeedMultiplier: 1
+  _recoilDecrease: 0
+  _fireMode: 1
+  _damage: 10
+  _fireRate: 199
+  _distance: 100
+  _scopeSpeed: 0
+  _reloadTime: 7
+  _scopeValue: 0
+  _velocity: 335
+  _bulletDrop: 12
+  _recoil:
+    _value: {x: 0.8, y: 3}
+    _firstShotMultiplier: 1
+    _decreasePerSecond: 5
+  _spread:
+    _typeDatas:
+    - _type: 0
+      _static: 0.8
+      _moving: 1.2
+    - _type: 1
+      _static: 0.24
+      _moving: 0.5
+    _increasePerBullet: 0.3
+    _decreasePerSecond: 9
+  _clipAmmo: 7
+  _ammo: 28
+  _shotSound: {fileID: 8300000, guid: 83738fe9323360b4b931b5f593fe32bc, type: 3}
+  _reloadSound: {fileID: 8300000, guid: 0e4981e68d7eabd4296b693ed381c0f4, type: 3}
+  _bulletPrefab: {fileID: 286305478639023472, guid: e9caea2b0e584d74fbcd0a04ac3575bf, type: 3}
+  _bulletHitPrefab: {fileID: 2248865630121712367, guid: 63ecab85597e1d64ebbd4c6515d6a344, type: 3}
+  references:
+    version: 2
+    RefIds: []
