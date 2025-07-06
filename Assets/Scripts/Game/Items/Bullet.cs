@@ -30,11 +30,10 @@ namespace Game
 
             if (IsServer && Physics.Linecast(_position, transform.position, out var hit))
             {
-                var damageable = hit.transform.GetComponent<IDamageable>();
-                if (damageable != null)
+                if (hit.transform.TryGetComponent<IDamageable>(out var damageable))
                     damageable.Damage(_gun.Data.Damage, hit);
                 Instantiate(_bulletHitPrefab, hit.point, Quaternion.LookRotation(hit.normal)).NetworkObject.Spawn();//.Initialize(damageable.);
-                
+
                 NetworkObject.Despawn();
             }
         }

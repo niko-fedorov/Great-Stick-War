@@ -12,8 +12,7 @@ namespace Game
             {
                 foreach (var collider in Physics.OverlapSphere(transform.position, Data.DamageRadius))
                 {
-                    var damageable = collider.GetComponent<IDamageable>();
-                    if (damageable != null && !Physics.Linecast(transform.position, collider.transform.position, out var hit))
+                    if( collider.TryGetComponent<IDamageable>(out var damageable) && !Physics.Linecast(transform.position, collider.transform.position, out var hit))
                         damageable.Damage(0, hit);
                 }
             });

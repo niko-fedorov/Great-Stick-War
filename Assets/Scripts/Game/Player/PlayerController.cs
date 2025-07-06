@@ -210,12 +210,11 @@ namespace Game
 
                 #region Interact
 
-                if (Physics.Raycast(_viewCamera.transform.position, _viewCamera.transform.forward, out var hit, _data.ActionDistance))
-                {
-                    var interactable = hit.transform.GetComponent<NetworkBehaviour>();
-                    if (interactable && interactable.GetComponent<IInteractable>() != null && interactable != _interactable)
-                        InteractClientRpc(_interactable = interactable);
-                }
+                if (Physics.Raycast(_viewCamera.transform.position, _viewCamera.transform.forward, out var hit, _data.ActionDistance)
+                    && hit.transform.TryGetComponent<NetworkBehaviour>(out var networkBehaviour)
+                    && networkBehaviour.TryGetComponent<IInteractable>(out var interactable)
+                    && interactable != _interactable)
+                    InteractClientRpc(_interactable = networkBehaviour);
                 else if (_interactable != null)
                     InteractClientRpc(_interactable = null);
 
