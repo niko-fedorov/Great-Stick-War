@@ -389,7 +389,7 @@ namespace Game
         {
             if (_characterController.isGrounded)
             {
-                _velocity = _data.JumpHeight - Physics.gravity.y / 2;
+                _velocity = -Mathf.Sqrt(_data.JumpHeight * Physics.gravity.y * 2);
                 JumpClientRpc();
             }
         }
@@ -554,7 +554,7 @@ namespace Game
         {
             _viewCamera.fieldOfView = 90 / (value ? _item.Data.ScopeValue : 1);
             _itemCamera.transform.position = value ? _item.Sight.Point : _itemCameraPoint;
-            
+
             ScopeClientRpc();
         }
         [ClientRpc]
